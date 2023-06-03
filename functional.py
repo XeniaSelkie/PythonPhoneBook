@@ -17,7 +17,7 @@ def add_cont(file_name, fio):
 def show_all(file_name):
     data = open(file_name, 'r')
     for line in data:
-        print(line[:-2])
+        print(line[:-1])
     data.close()    
     
 def search(file_name, stroka):
